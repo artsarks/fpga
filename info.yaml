@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        "Verilog Meetup Template TODO"  # Project title
-  author:       "Verilog Meetup Member TODO"    # Your name
+  title:        "Fast & Furries"  # Project title
+  author:       "Arthur Sarkisian"    # Your name
   discord:      "verilog_meetup_member_TODO"    # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "An ASIC project compatible with an FPGA project from BGM (basic-graphics-music) infrastructure. TODO"      # One line description of what your project does
+  description:  "A simple FPGA game written in SystemVerilog "      # One line description of what your project does
   language:     "SystemVerilog"  # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     25000000         # Clock frequency in Hz (or 0 if not applicable)
 
@@ -11,7 +11,7 @@ project:
   tiles: "1x2"  # TODO Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_verilog_meetup_template_project_TODO"
+  top_module:  "hackathon_top.sv"
 
   # List your project's source files here.
   # Source files must be in ./src and you must list each source file separately, one per line.
